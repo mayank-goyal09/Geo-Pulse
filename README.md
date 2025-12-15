@@ -6,9 +6,11 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Streamlit-FF4B4B?style=for-the-badge)](https://geo-pulse-project.streamlit.app/)
+[![Kaggle Notebook](https://img.shields.io/badge/📓_Kaggle_Notebook-View_Code-20BEFF?style=for-the-badge)](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan)
 [![GitHub stars](https://img.shields.io/github/stars/mayank-goyal09/Geo-Pulse?style=social)](https://github.com/mayank-goyal09/Geo-Pulse/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/mayank-goyal09/Geo-Pulse?style=social)](https://github.com/mayank-goyal09/Geo-Pulse/network)
 
@@ -53,6 +55,12 @@
 ├── 📊 geo_pulse_sample.parquet      # Sample accident dataset (preprocessed)
 ├── 📦 requirements.txt              # Dependencies
 └── 📖 README.md                     # You are here!
+
+📓 External Resources:
+├── Kaggle Notebook                  # Complete EDA & Model Training
+│   └── https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan
+└── Live Demo                        # Deployed Streamlit App
+    └── https://geo-pulse-project.streamlit.app/
 ```
 
 ---
@@ -61,26 +69,36 @@
 
 ![Quick Start GIF](https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-705f7be0b224.gif)
 
-### **Step 1: Clone the Repository** 📥
+### **Option 1: Try the Live Demo** 🌐
+
+👉 **[Launch Streamlit App](https://geo-pulse-project.streamlit.app/)** - No installation required!
+
+### **Option 2: Explore the Code** 📓
+
+👉 **[View Kaggle Notebook](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan)** - Complete EDA, model training & analysis
+
+### **Option 3: Run Locally** 💻
+
+#### **Step 1: Clone the Repository** 📥
 
 ```bash
 git clone https://github.com/mayank-goyal09/Geo-Pulse.git
 cd Geo-Pulse
 ```
 
-### **Step 2: Install Dependencies** 📦
+#### **Step 2: Install Dependencies** 📦
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### **Step 3: Run the App** 🎯
+#### **Step 3: Run the App** 🎯
 
 ```bash
 streamlit run app.py
 ```
 
-### **Step 4: Open in Browser** 🌐
+#### **Step 4: Open in Browser** 🌐
 
 The app will automatically open at: **`http://localhost:8501`**
 
@@ -106,6 +124,8 @@ The app will automatically open at: **`http://localhost:8501`**
 **4️⃣ Noise Filtering** → Remove outlier accidents (sparse incidents)  
 **5️⃣ Visualization** → Interactive 3D maps, state-level statistics, severity breakdown  
 **6️⃣ Export** → Download cluster assignments for city planning or insurance analysis
+
+> 📓 **Want to see the complete analysis?** Check out the [Kaggle Notebook](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan) for detailed EDA, hyperparameter tuning, and model training!
 
 ---
 
@@ -227,6 +247,8 @@ features = {
 ✅ **Highway interchanges** form distinct secondary clusters  
 ✅ **Optimal eps = 3 km** balances urban and suburban accident patterns
 
+> 💡 **See the full analysis:** [View detailed EDA and clustering experiments on Kaggle](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan)
+
 ---
 
 ## 🔮 **FUTURE ENHANCEMENTS** 🔮
@@ -266,6 +288,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 [![GitHub](https://img.shields.io/badge/GitHub-mayank--goyal09-181717?logo=github)](https://github.com/mayank-goyal09)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank_Goyal-0A66C2?logo=linkedin)](https://www.linkedin.com/in/mayank-goyal-4b8756363/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-mayankdataanalyst-20BEFF?logo=kaggle)](https://www.kaggle.com/mayankdataanalyst)
 [![Email](https://img.shields.io/badge/Email-itsmaygal09%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:itsmaygal09@gmail.com)
 
 **Mayank Goyal**  
@@ -288,12 +311,17 @@ Give a ⭐️ if this project helped you understand geospatial ML and traffic an
 
 ---
 
-## 🔗 **RELATED PROJECTS** 🔗
+## 🔗 **PROJECT LINKS** 🔗
 
-🔍 Check out my other ML projects:  
-• [Retail Radar Engine](https://github.com/mayank-goyal09/retail-radar-engine) - Customer Segmentation with K-Means  
-• [Smart Harvest](https://github.com/mayank-goyal09/smart-harvest) - Crop Prediction System  
-• [MR Cardio Astrologer](https://github.com/mayank-goyal09/mr-cardio-disease-astrologer) - Heart Disease Classification
+### **🌍 Geo-Pulse Resources:**
+- 🌐 **[Live Streamlit App](https://geo-pulse-project.streamlit.app/)** - Interactive Dashboard
+- 📓 **[Kaggle Notebook](https://www.kaggle.com/code/mayankdataanalyst/main-ipynb-dbscan)** - Complete Code & Analysis
+- 💻 **[GitHub Repository](https://github.com/mayank-goyal09/Geo-Pulse)** - Source Code
+
+### **📂 Other ML Projects:**
+- 🛍️ **[Retail Radar Engine](https://github.com/mayank-goyal09/retail-radar-engine)** - Customer Segmentation with K-Means
+- 🌾 **[Smart Harvest](https://github.com/mayank-goyal09/smart-harvest)** - Crop Prediction System
+- ❤️ **[MR Cardio Astrologer](https://github.com/mayank-goyal09/mr-cardio-disease-astrologer)** - Heart Disease Classification
 
 ---
 
